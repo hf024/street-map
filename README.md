@@ -10,4 +10,4 @@
 4）knockout框架
 
 ## 运行指南
-点击进入[页面](https://hf024.github.io/street-map)
+点击进入[页面](https://hf024.github.io/street-map/)
