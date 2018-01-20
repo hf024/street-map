@@ -92,7 +92,7 @@ function doMarkClick (marker) {
 }
 
 function getNews(query) {
-    var apiUrl = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?sort=newest&api-key=3b7cde7f451b40c188a24572f14dbc45&q=';
+    var apiUrl = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?sort=newest&api-key=3b7cde7f451b40c188a24572f14dbc45&q=';
     $.ajax({
         url: apiUrl + query + ', shenzhen',
         datType: 'json',
